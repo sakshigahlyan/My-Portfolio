@@ -1,0 +1,297 @@
+@font-face {
+    font-family: gilroy;
+    src: url(Gilroy-ExtraBold.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+
+#main{
+   width: 100%;
+   height: 100%;
+    background-color:black;
+}
+
+#nav{
+    width: 100%;
+    height: 10%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid white;
+   
+    padding-left: 180px;
+    padding-right: 80px;
+    font-family: gilroy;
+}
+
+#nav i{
+    color:red;
+}
+
+#navright{
+    display: flex;
+    align-items: center;
+    
+
+}
+
+#nav h1{
+    font-size: 60px;
+    color: white;
+}
+
+#navright h2{
+    /* font-size: 15px; */
+    padding: 20px;
+    color: white;
+}
+
+#navright a{
+margin-left: 25px;
+text-decoration: none;
+font-size: 20px;
+color: white;
+background-color: rgb(76, 76, 214);
+padding: 8px 16px;
+border-radius: 8px;
+border:2px solid black;
+}
+
+
+#intro {
+    width: 100%;
+    height: 90%;
+       display: flex;
+}
+
+#image{
+    width: 55%;
+    height: 80%;
+    position: relative;
+    
+}
+
+#image>img{
+    height: 450px;
+    border-radius: 12px;
+    position: absolute;
+    top: 25%;
+    left: 0%;
+    transform: translate(-50%,-%50);
+    
+
+}
+
+#about{
+    height: 100%;
+    width: 45%;
+   
+    position: relative;
+}
+
+#about h1{
+    position: absolute;
+    top: 42%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    font-family: gilroy;
+    font-size: 92px;
+    line-height: 86px;
+    margin-top: 10px;
+    color: white;
+
+   
+
+}
+
+#about h3{
+    position: absolute;
+    top: 24%;
+    left: 24%;
+    transform: translate(-50%,-50%);
+    font-family: gilroy;
+    font-size: 35px;
+    background-color: rgb(255, 0, 0);
+    padding: 8px 20px;
+    
+
+}
+
+#about h2{
+    position: absolute;
+    top: 64%;
+    left: 39%;
+    transform: translate(-50%,-50%);
+    font-family: gilroy;
+    font-size: 35px;
+   
+    padding: 8px 20px;
+    color: white;
+    
+
+}
+
+#buttons{
+    position: absolute;
+    top: 74%;
+    font-size: 23px;
+    width: 100%;
+   
+  
+   
+}
+
+#buttons a{
+    font-family: gilroy;
+   
+    border: 2px solid white;
+    border-radius: 7px;
+    
+    padding: 20px 40px;
+    
+   
+    
+    text-decoration:none;
+    color: white;
+    text-align: center;
+    
+    display: inline;
+    
+    
+
+}
+
+#redbutton{
+    background-color: red;
+    position: absolute;
+    left: 78px;
+    
+}
+
+#borderbutton{
+    position: absolute;
+    left: 320px;
+}
+
+#secondpage{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+
+#part1{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(3, 3, 3);
+    position: relative;
+}
+
+#part2{
+    height: 100%;
+    width: 50%;
+    position: relative;
+    font-family: gilroy;
+    padding: 4%;
+    /* background-color: rgb(0, 4, 255); */
+    color: white;
+    background-color: black;
+}
+
+#part1 img{
+    height: 65%;
+    width: 80%;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 53%;
+    transform: translate(-50%,-50%);
+    border-radius: 12px;
+    /* filter: grayscale(80%); */
+
+}
+
+/* #part2{
+    height: 100%;
+    
+} */
+
+#part2 h1{
+    position: absolute;
+    top: 18%;
+}
+
+#part2 h3{
+    position: absolute;
+    top: 24%;
+}
+
+#progressbars{
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    top: 40%;
+}
+
+.progressbar{
+    height: 5%;
+    width: 80%;
+    background-color: gray;
+}
+
+#progress1{
+    height: 25%;
+    width: 100%;
+}
+
+#progress2{
+    height: 25%;
+    width: 100%;
+}
+#progress3{
+    height: 25%;
+    width: 100%;
+}
+#progress4{
+    height: 25%;
+    width: 100%;
+}
+
+#bar1{
+    height: 100%;
+    width: 80%;
+    background-color: red;
+}
+
+#bar2{
+    height: 100%;
+    width: 65%;
+    background-color: red;
+}
+
+#bar3{
+    height: 100%;
+    width: 40%;
+    background-color: red;
+}
+
+#bar4{
+    height: 100%;
+    width: 0%;
+    background-color: red;
+}
+
+
+
+
+
